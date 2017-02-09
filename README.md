@@ -10,8 +10,9 @@ This python script encodes text to Morse code and sends it via virtual COM port.
 # Instructions
 1. Connect the 3.5mm jack cable to the USB -- RS-232 bridge as shown below. Solder the audio cable to jumper cables and use electrical tape to prevent them from shorting together.
 Inside the FT-817 the morse key has a ~12kOhm pullup resistor to the +5V rail. The CP2104 pins are 5V tolerant, so there sould be no problem connecting them together. The correct connection of the module and the radio is the following:
-Sleeve  <-----> GND
-Tip     <-----> RTS
+
+Sleeve <-----> GND
+Tip <-----> RTS
 ![connection](https://github.com/therman89/HA4TI002-MorseSerialEncoder/raw/master/CP2104_conn.jpg)
 2. Use a jack splitter to create a wired OR connection of the key and the auto-keyer
 3. Start the python code from the command line
